@@ -10,7 +10,7 @@ namespace Presentation
         {
             var rumiCheese = new Cheese("Rumi Cheese", 100m, 70, 1.6, DateTime.UtcNow.AddDays(7));
             var tv = new TV("TV", 500m, 23, 100);
-            var biscuits = new Biscuits("Tommor", 10m, 200, DateTime.UtcNow.AddDays(3));
+            var biscuits = new Biscuits("Tommorr", 10m, 200, DateTime.UtcNow.AddDays(3));
 
             var customer = new Customer(1, "Mohamed Atef", "Cairo", 100000m);
             var cart = new Cart();
